@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+/**
+<<<<<<< HEAD
+ * main - Prints the alphabet.
+=======
+ * main - Entry point
+>>>>>>> 9afa54e1c1d04813150e0838bdf8ad949d403e78
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+<<<<<<< HEAD
+		putchar(ch);
+	}
+	putchar('\n');
+=======
+		putchar (ch);
+	}
+	putchar("\n');
+>>>>>>> 9afa54e1c1d04813150e0838bdf8ad949d403e78
+	return (0);
+}
